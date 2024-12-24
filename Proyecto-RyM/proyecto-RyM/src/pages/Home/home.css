@@ -1,0 +1,92 @@
+*   {
+    font-family:'Raleway', sans-serif;
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    
+}
+.text   {
+    color:#344d67 !important;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.titulo{
+    font-weight: 500;
+    margin-top: 67px;
+    margin-inline:0;
+    font-size: 40px;
+    line-height: 1.2;
+    width:600px ;
+    height: 48px;
+}
+.subtitulo  {
+    font-weight: 500;
+    margin-inline:0px;
+    margin-top:24px;
+    font-size: 32px;
+    line-height: 38px;
+    height: 34.5px;
+}
+.this-proyect    {
+    margin-top:33px;
+    margin-inline:0;
+    line-height: 1.5;
+    height: 24px;
+}
+.in-this    {
+    display: flex;
+    margin-top:24px;
+    margin-inline: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    margin-inline: 0px;
+}
+.also-you   {
+    margin-bottom: 16px;
+    margin-inline: 0;
+    margin-top: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+.lets-go    {
+    font-weight: 500;
+    margin-top:32px;
+    margin-bottom:8px;
+    margin-inline:0;
+    line-height: 38px;
+}
+.contenedor {
+    width: 44%;
+    height: fit-content 
+}
+.contenedor-texto   {
+    overflow: hidden;
+    position: relative;
+}
+.fondo-blanco{
+    background-color: #ffffffe6;
+    width: 600px;
+    height: 600px;
+    margin-top: 4px;
+   margin-bottom: 4px;
+}
+.boton-bien {
+    padding: 15px;
+    border:1px
+    
+}
+
+.d-grid {
+    display: grid !important;
+}
+
+.containerButton    {
+    gap: 18px;
+    margin-bottom: 100px !important;
+}
+

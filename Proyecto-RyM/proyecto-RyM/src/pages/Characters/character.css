@@ -1,0 +1,83 @@
+.subt-1{
+    display: block;
+    color:#344d67;
+    font-size: 32px;
+    margin: 0;
+}
+
+.section-filtros{
+    padding-top: 2rem;
+    width: 100%;
+}
+.form{
+    display: none;
+    justify-content: space-around;
+}
+
+.mobile-filters{
+    display: flex;
+}
+@media(min-width:720px){
+    .mobile-filters{
+        display: none!important;
+    
+    }
+    .subt-1{
+        display: block;
+    }
+    .form{
+        display: flex;
+    }
+
+}
+
+.formulario{
+   padding: .5rem;
+   margin-inline: 0;
+}
+
+.contenedor-form{
+    margin: 0;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.boton{
+    color: #344d67;
+}
+
+@media (max-width: 1040px) {
+    .container-full, .container-full-2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1040px) {
+    .container-filter, .filter-2 {
+        background-color: #344d67 !important;
+        background-color: var(--coBlue);
+    }
+}
+
+@media (max-width: 1040px) {
+    .container-filter {
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .subt-1 {
+        color: #6eccaf;
+    }
+}
+
+@media (max-width: 1040px) {
+    .icon-filter {
+        display: block;
+    }
+}
